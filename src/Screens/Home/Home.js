@@ -14,8 +14,10 @@ const Home = ({ navigation }) => {
       age: 23,
     });
   };
+
   return (
     <View style={styles.container}>
+      <Text>This is home screen</Text>
       <Button title="Go to Profile" onPress={gotToScreen} />
     </View>
   );

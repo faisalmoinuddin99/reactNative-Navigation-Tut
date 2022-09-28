@@ -10,6 +10,9 @@ const styles = StyleSheet.create({
   textStyle: {
     color: "coral",
   },
+  btn: {
+    marginTop: 20,
+  },
 });
 
 export default styles;
